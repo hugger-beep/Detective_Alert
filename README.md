@@ -61,3 +61,12 @@ The system includes four default correlation types:
     "min_findings": 2,
     "score_threshold": 7
    }
+
+## Severity Scores
+  
+   {
+    'CRITICAL': 5,
+    'HIGH': 4,
+    'MEDIUM': 3,
+    'LOW': 1
+   }
