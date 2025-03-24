@@ -63,8 +63,9 @@ The system includes four default correlation types:
    }
 5.**Severity Scores**
   ```json
-severity_scores = {
+ {
     'CRITICAL': 5,
     'HIGH': 4,
     'MEDIUM': 3,
-    'LOW': 1 }
+    'LOW': 1
+}
