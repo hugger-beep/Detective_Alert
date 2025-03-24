@@ -52,7 +52,7 @@ The system includes four default correlation types:
     "related_types": ["PasswordCracking", "BruteForceAttempts", "UnauthorizedAPICall"],
     "min_findings": 3,
     "score_threshold": 8
-}
+   }
 
 4. **PERSISTENCE_ATTEMPT**
    ```json
@@ -60,4 +60,4 @@ The system includes four default correlation types:
     "related_types": ["IAMUserCreation", "UnauthorizedKeyCreation", "SecurityToolDisabled"],
     "min_findings": 2,
     "score_threshold": 7
-}
+   }
