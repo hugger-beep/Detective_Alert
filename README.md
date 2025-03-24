@@ -78,21 +78,21 @@ The system includes four default correlation types:
 ### Alert Decision Logic
 1. Correlated Findings Alert
      Triggered when:
-        Minimum number of related findings is met
-        Total score exceeds rule threshold
+        Minimum number of related findings is met,
+        Total score exceeds rule threshold,
         Findings occur within correlation window
 
 2. Individual Finding Alert
      Triggered when:
-        Single finding score ≥ 4 (HIGH or CRITICAL severity)
+        Single finding score ≥ 4 (HIGH or CRITICAL severity),
         No correlation pattern detected
 
 3. Finding Group Alert
      Triggered when:
-        Total group score ≥ 7 OR
+        Total group score ≥ 7 OR,
         ≥ 2 high severity findings in group
 
 4. Investigation State Change Alert
      Triggered for states:
-        IN_PROGRESS
+        IN_PROGRESS,
         ESCALATED
