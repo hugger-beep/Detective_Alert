@@ -105,8 +105,9 @@ DETECTIVE_GRAPH_ARN: ARN of Detective graph
 
 SNS_TOPIC_ARN: ARN of SNS topic for alerts
 
-## Adding New Correlation Rules
+**Adding New Correlation Rules**
 correlator.add_correlation_rule
+ ```json
 (
     rule_name="CUSTOM_RULE",
     related_types=["Type1",  "Type2"],
