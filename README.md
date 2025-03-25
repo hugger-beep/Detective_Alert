@@ -100,5 +100,7 @@ The system includes four default correlation types:
    
 ## Configuration
 ### Environment Variables
+
 DETECTIVE_GRAPH_ARN: ARN of Detective graph
+
 SNS_TOPIC_ARN: ARN of SNS topic for alerts
