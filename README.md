@@ -92,7 +92,13 @@ The system includes four default correlation types:
         Total group score ≥ 7 OR,
         ≥ 2 high severity findings in group
 
+
 4. Investigation State Change Alert
      Triggered for states:
         IN_PROGRESS,
         ESCALATED
+   
+## Configuration
+### Environment Variables
+DETECTIVE_GRAPH_ARN: ARN of Detective graph
+SNS_TOPIC_ARN: ARN of SNS topic for alerts
