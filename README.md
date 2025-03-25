@@ -105,6 +105,12 @@ The system includes four default correlation types:
 
 ##### SNS_TOPIC_ARN: ARN of SNS topic for alerts
 
+## Update correlation window
+correlator.update_correlation_window(hours=6)
+
+## Update rule thresholds
+correlator.correlation_rules["CUSTOM_RULE"]["score_threshold"] = 8
+
  **Adding New Correlation Rules**
    ```json
    (
@@ -114,8 +120,4 @@ The system includes four default correlation types:
     score_threshold=6
    )
 
-## Update correlation window
-correlator.update_correlation_window(hours=6)
 
-## Update rule thresholds
-correlator.correlation_rules["CUSTOM_RULE"]["score_threshold"] = 8
