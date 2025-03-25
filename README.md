@@ -112,7 +112,7 @@ correlator.update_correlation_window(hours=6)
 correlator.correlation_rules["CUSTOM_RULE"]["score_threshold"] = 8
 
  **Adding New Correlation Rules**
-   ```json
+
    (
     rule_name="CUSTOM_RULE",
     related_types=["Type1",  "Type2"],
