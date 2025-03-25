@@ -99,11 +99,11 @@ The system includes four default correlation types:
         ESCALATED
    
 ## Configuration
-### Environment Variables
+## Environment Variables
 
-##### DETECTIVE_GRAPH_ARN: ARN of Detective graph
+###### DETECTIVE_GRAPH_ARN: ARN of Detective graph
 
-##### SNS_TOPIC_ARN: ARN of SNS topic for alerts
+###### SNS_TOPIC_ARN: ARN of SNS topic for alerts
 
 ## Update correlation window
 correlator.update_correlation_window(hours=6)
@@ -119,5 +119,3 @@ correlator.correlation_rules["CUSTOM_RULE"]["score_threshold"] = 8
     min_findings=2,
     score_threshold=6
    )
-
-
